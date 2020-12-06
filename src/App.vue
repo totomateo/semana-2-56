@@ -1,6 +1,17 @@
 <template>
   <div id="app">
 
+    <div class = "container-fluid">
+      <div class="row row-cols-1 row-cols-md-2">
+            <div class="col mb-4">
+        <section-api></section-api>
+      </div>
+      </div>
+    
+    </div>
+  
+  
+
   <section id="team" class="equipo">
     <div class="card-group">
 
@@ -19,12 +30,16 @@
 
 import PageFooter from './components/PageFooter.vue'
 import TeamCard from './components/TeamCard.vue'
+import SectionApi from './components/SectionApi.vue'
+
 
 export default {
   name: 'App',
   components: {
     TeamCard,
-    PageFooter
+    PageFooter,
+    SectionApi,
+
   },
 
   data(){
