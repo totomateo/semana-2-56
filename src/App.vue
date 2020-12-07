@@ -1,7 +1,7 @@
 <template>
   <div id="app">
 
-    <div class = "container-fluid">
+    <div class = "'container-fluid'">
       <div class="row row-cols-1 row-cols-md-2">
             <div class="col mb-4">
         <section-api></section-api>
