@@ -1,14 +1,15 @@
 <template>
 
-
     <div class="card">
-        <img src="../assets/hulk.jpg" class="card-img-top" alt="...">
+        <!-- <div>{{member}}</div> -->
+        <img src= "" class="card-img-top" alt="foto">
         <div class="card-body">
-        <h5 class="card-title">Edwin Camilo Reina Beltrán </h5>
-        <p class="card-text">Ingeniero mecánico con ínfulas de programador, runner en formación y con alta toleracia a la frustración (hincha de millonarios).</p>
+            <h5 class="card-title">Codigo: {{member.codigo}}</h5>
+            <h5 class="card-title"> {{member.nombre}} </h5>
+            <h6 class="card-title"> {{member.rol}} </h6>
+            <p class="card-text">{{member.descripcion}}</p>
         </div>
     </div>
-
     
 </template>
 
