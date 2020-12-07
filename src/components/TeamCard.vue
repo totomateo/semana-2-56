@@ -1,7 +1,6 @@
 <template>
 
     <div class="card">
-        <!-- <div>{{member}}</div> -->
         <img src= "" class="card-img-top" alt="foto">
         <div class="card-body">
             <h5 class="card-title">Codigo: {{member.codigo}}</h5>
